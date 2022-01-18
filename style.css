@@ -129,6 +129,6 @@ nav:hover{
   filter: drop-shadow(12px 12px 20px purple) ;
 }
 
-#vid iframe:hover{
+#vid iframe{
   filter: drop-shadow(12px 12px 20px purple) ;
 }
