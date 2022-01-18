@@ -1,0 +1,132 @@
+body{
+  background-color:rgb(0, 0, 0);
+  color:#ffffff;
+  font-family: 'M PLUS 1 Code', sans-serif;
+  
+}
+
+#body{
+  padding-right:100px;
+  padding-left:100px;
+  
+}
+
+#code{
+  border:2px solid #ffffff;
+  padding-right:5px;
+  padding-left:15px;
+  font-size:18px;
+  font-weight: 900;
+}
+
+h1{
+  text-align: center;
+  font-size: 28px;
+}
+
+h4{
+  text-align: center;
+}
+
+p{
+  font-size:15px;
+  font-weight: 900;
+}
+
+ul{
+  list-style:none;
+  font-size:px;
+  font-weight: 900;
+}
+
+.code{
+  padding-left:18px;
+}
+
+code{
+  color:hotpink;
+  background-color: #2f2f2f;
+}
+
+.example {
+  background-color: #2f2f2f;
+  margin:0px 20px 0px 20px;
+  padding:0;
+}
+
+h4{
+  padding-left:20px;
+}
+
+.exp{
+  border: 0.5px solid white;
+  margin:20px 20px 20px 20px;
+}
+
+#gobackbtn {
+  font-size:30px;
+  text-align: right;
+  padding-top: 8;
+  margin-right:8;
+    
+}
+
+
+#gobackbtn:hover{
+  filter: drop-shadow(2px 2px 5px aqua);
+
+}
+
+nav{
+  float: center;
+  font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+nav a{
+  float: right;
+}
+
+img{
+  border-radius: 100px;
+}
+
+.downloads{
+  font-size:20px;
+  padding:0px 10px 0px 10px;
+}
+
+#dwn a{
+  float:none;
+}
+
+button{
+  padding-left:20px;
+  padding-right:20px;
+  margin-top:5px;
+  margin-bottom:5px;
+  padding-top:5px;
+  padding-bottom:5px;
+  border-radius:10px;
+  border:0px; cursor:pointer;
+  font-family: 'M PLUS 1 Code', sans-serif;
+  font-size:15px;
+  font-weight: 1000;
+}
+
+button:hover{
+  background-color: #2f2f2f;
+  color: #ffffff;
+}
+
+nav:hover{
+  background-color: #383838;
+  filter: drop-shadow(12px 12px 20px purple) ;
+  border-radius: 30px;
+}
+
+#dwn:hover{
+  background-color: #383838;
+  filter: drop-shadow(12px 12px 20px purple) ;
+}
+
+
