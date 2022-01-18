@@ -84,6 +84,7 @@ nav{
 
 nav a{
   float: right;
+  filter: drop-shadow(12px 12px 20px purple) ;
 }
 
 img{
@@ -118,11 +119,11 @@ button:hover{
   color: #ffffff;
 }
 
-nav:hover{
+/*nav:hover{
   background-color: #383838;
   filter: drop-shadow(12px 12px 20px purple) ;
   border-radius: 30px;
-}
+}*/
 
 #dwn:hover{
   background-color: #383838;
