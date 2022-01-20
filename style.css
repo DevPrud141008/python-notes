@@ -133,3 +133,7 @@ button:hover{
 #vid iframe{
   filter: drop-shadow(12px 12px 20px purple) ;
 }
+
+a{
+ color:white;
+}
