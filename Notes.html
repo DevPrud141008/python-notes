@@ -20,17 +20,20 @@
   <a href="https://devprud141008.github.io/python-notes/" style="float:right;padding-top:5px;padding-left:20px;padding-right:20px;color:#ffffff;font-family: 'M PLUS 1 Code', sans-serif;">Home</a>
 </nav>
 
+
 <h1>Python Notes</h1>
 <hr width="80%" size="3px" color="white"><hr width="78%" size="1.5px" color="white">
-<h4>Class 1</h4>
+<a href="#class1" title="Click to go"><h4>Class 1</h4></a>
+<a href="#class2" title="Click to go"><h4>Class 2</h4></a>
 <div id="body">
- <div id="code">
+ <div id="code" >
+   <h4 style="font-size:25px;" name="class1">Class 1</h4>
    -> Variables: They are like boxes or containers which store data/information
     Rules on naming the variables:
       <ul>
       <li>->Variables can't start with number or symbol</li>
-      <li> ->They can only contain '_' (underscore) , alphabets and numbers</li>
-      <li>->They can start with '_' (underscore) and alphabets</li>
+      <li> ->They can only contain '' (underscore) , alphabets and numbers</li>
+      <li>->They can start with '' (underscore) and alphabets</li>
       </ul>
    -> DataTypes: They tell what kind of data it is (like if something is a number or a string)
     <ul>
@@ -55,12 +58,36 @@
           y=3
 
           if x==y:
-             print("they both are equal")
+            print("they both are equal")
           else:
-             print("they both are not equal")
+            print("they both are not equal")
           </pre>
          </div>
  </div>
+</div><br/><br/>
+<div id="code">
+  <h4 style="font-size:25px;" id="class2">Class 2</h4>
+   <code>len()</code> -> a function which tells how many characters there are in a string
+        <div class="exp">
+          <h4>Example</h4>
+           <div class="example">
+             <pre>
+              print(len('Python Rules'))
+              OUTPUT: 12
+             </pre>
+           </div>
+       </div>
+
+   <code>in</code> -> its an operator where it checks if a certain string is present in a string
+        <div class="exp">
+          <h4>Example</h4>
+          <div class="example">
+            <pre>
+           if 'hello' in 'helloworld':
+                print('it is there!')
+            </pre>
+        </div>
+</div>
 <!--<div id="gobackbtn">
   <span><ion-icon name="arrow-up-circle-outline"></ion-icon></span>
 </div>-->
